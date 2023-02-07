@@ -1,0 +1,158 @@
+/*MOBILE*/
+#section7-hero2 {
+    
+    & .hero-2 {
+
+        height: 100vh;
+        width: 100vw;
+        background-image: url(../img/bg-img-hero2.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        display: flex;
+        align-items: center;
+
+        & .container {
+
+            & h1 {
+                width: 100% !important;
+            }
+            & h1,
+            & .display-1 {
+                text-align: left;
+            }
+            & .card-subtitle {
+                font-family: 'Mulish', sans-serif;
+                font-size: 16px;
+                font-weight: 600;
+                color: #fff;
+                position: relative;
+                bottom: 4px;
+                width: 760px;
+                margin: 0 auto;
+            }
+            & .card-price {
+                font-family: 'Mulish', sans-serif;
+                font-size: 44px;
+                font-weight: 600;
+                font-style: italic;
+                color: #fff;
+                width: 760px;
+                margin: 0 auto;
+            }
+            & .card-price span {
+                font-size: 14px !important;
+                font-weight: 200;
+                color: #fff;
+                width: 760px;
+                margin: 0 auto;
+            }
+            & .cta-container {
+                display: flex;
+                align-items: baseline;
+
+                & .input-promo {
+                    margin-left: 1em;
+
+                    & input {
+                        height: 38px;
+                        padding-left: 1em;
+                        border-top-left-radius: 3px;
+                        border-top-right-radius: 0px;
+                        border-bottom-right-radius: 0px;
+                        border-bottom-left-radius: 3px;
+                        border: none !important;
+                    }
+                    & button {
+                        background-color: $yellow;
+                        border: none;
+                        color: #fff;
+                        height: 39px;
+                        padding: 0 1em;
+                        border-top-left-radius: 0px;
+                        border-top-right-radius: 3px;
+                        border-bottom-right-radius: 3px;
+                        border-bottom-left-radius: 0px;
+                        position: relative;
+                        left: -4px;
+                    }
+                    & button:hover {
+                        cursor: pointer;
+                    }
+                    & .promo-alert {
+                        color: #fff;
+                        font-family: 'Mulish', sans-serif;
+                        padding-top: .5em;
+                        //display: none;
+
+                    }
+                }
+            }
+            & .cta-container,
+            & .currency-price {
+                width: 760px;
+                margin: 0 auto;
+                padding-top: 1em;
+            }
+            & .discount-price {
+                width: 760px;
+                margin: 0 auto;
+                padding-top: .2em;
+                color: #fff;
+                font-family: 'Mulish', sans-serif;
+                text-decoration: line-through;
+                //display: none;
+            }
+        }
+
+    }
+}
+
+/*SMALL*/
+@media #{$query-small} {
+    
+}
+
+/*MEDIUM*/
+@media #{$query-medium} {
+
+}
+
+/*LARGE*/
+@media #{$query-large} {
+    #section7-hero2 {
+        
+        & .hero-2 {
+
+            & .container {
+
+                & h1 {
+                    width: 760px !important;
+                    margin: 0 auto;
+                }
+                
+            }
+
+        }
+        & .cta-container {
+
+            & .input-promo {
+
+                & input {
+                    width: 330px;
+                }
+            }
+        }
+    }
+}
+
+/*X-LARGE*/
+@media #{$query-xl} {
+
+    
+}
+
+/*XX-LARGE*/
+@media #{$query-xxl} {
+
+}

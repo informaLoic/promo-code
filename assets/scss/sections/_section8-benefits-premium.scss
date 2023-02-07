@@ -1,0 +1,97 @@
+/*MOBILE*/
+#section8-benefits-premium {
+    padding-top: 2em;
+    padding-bottom: 4em;
+    & .container-list {
+        
+        padding: .5em;
+    }
+    & ul:first-child {
+        padding-top: 2em;
+    }
+    & ul:last-child {
+        padding-bottom: 2em;
+    }
+    & ul {
+        background-color: $xtra-light;
+        & li {
+            display: flex;
+            justify-content: flex-start;
+            font-size: 16px;
+            text-align: left;
+            padding-left: .5em;
+
+            & p {
+                font-family: 'Mulish';
+                padding: .5em 0 .5em .5em ;
+            }
+            & .active-feature {
+                font-weight: 900;
+            }
+            & .inactive-feature {
+                font-weight: 200;
+                color: #cbcbcb;
+            }
+        }
+    }
+    
+}
+
+/*SMALL*/
+@media #{$query-small} {
+    
+}
+
+/*MEDIUM*/
+@media #{$query-medium} {
+
+}
+
+/*LARGE*/
+@media #{$query-large} {
+    #section8-benefits-premium {
+        & .container-list {
+            display: flex;
+            justify-content: space-between;
+            & ul {
+                width: 32%;
+                padding-top: 2em;
+                padding-bottom: 2em;
+                position: relative;
+
+                & .cube {
+                    position: absolute;
+                    width: 30px;
+                    height: 30px;
+                    z-index: -1;
+                }
+                & .cube-topleft {
+                    top: -8px;
+                    left: -8px;
+                }
+                & .cube-botright {
+                    bottom: -8px;
+                    right: -8px;
+                }
+                & .cube-premium {
+                    background-color: $yellow;
+                }
+                & .cube-free {
+                    background-color: $secondary-blue;
+                }
+            }
+        }
+    }
+    
+}
+
+/*X-LARGE*/
+@media #{$query-xl} {
+
+    
+}
+
+/*XX-LARGE*/
+@media #{$query-xxl} {
+
+}

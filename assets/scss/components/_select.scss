@@ -1,0 +1,41 @@
+/*MOBILE*/
+.currency-price {
+    display: flex;
+    align-items: center;
+    border-color: none;
+    & #currency {
+        padding: .3em .6em;
+        margin-right: .5em;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    & #currency:hover {
+        cursor: pointer;
+    }
+}
+
+/*SMALL*/
+@media #{$query-small} {
+    
+}
+
+/*MEDIUM*/
+@media #{$query-medium} {
+
+}
+
+/*LARGE*/
+@media #{$query-large} {
+    
+}
+
+/*X-LARGE*/
+@media #{$query-xl} {
+
+    
+}
+
+/*XX-LARGE*/
+@media #{$query-xxl} {
+
+}

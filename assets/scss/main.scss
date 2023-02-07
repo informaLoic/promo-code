@@ -5,16 +5,16 @@
 @import './base/reset';
 @import './base/typography';
 
-//component
+//components
+@import './components/cta';
+@import './components/select';
 
 
 //layout
 @import './layout/grid';
+@import './layout/header';
+@import './layout/footer';
 
 //sections
-
-
-//themes
-
-
-//vendors
+@import './sections/section7-hero2';
+@import './sections/section8-benefits-premium';
