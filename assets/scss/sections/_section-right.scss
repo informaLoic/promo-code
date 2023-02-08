@@ -1,0 +1,114 @@
+/*MOBILE*/
+#section-right {
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    & h1 {
+        color: #000;
+    }
+    & .display-1 {
+        color: #000;
+    }
+    & form {
+        width: 90%;
+        max-width: 350px;
+        margin: 0 auto;
+    }
+    & label {
+        font-family: 'Mulish', sans-serif;
+        font-size: 12px;
+        display: block;
+        padding-bottom: .5em;
+    }
+    & input {
+        width: 100%;
+        height: 38px;
+        border: solid 1px #D9D9D9;
+        border-radius: 3px;
+        padding-left: 1em;
+    }
+    & button {
+        width: 100%;
+        margin-top: 2em;
+        height: 38px;
+        border-radius: 100px;
+        border: none;
+        background-color: $primary-blue;
+        color: #fff;
+    }
+    & button:hover {
+        background-color: #0E1852;
+        cursor: pointer;
+    }
+    & .block-register {
+        text-align: center;
+        padding-top: 2em;
+        font-family: 'Mulish', sans-serif;
+        width: 90%;
+        max-width: 350px;
+        margin: 0 auto;
+        & p {
+            font-size: 12px;
+            font-style: italic;
+        }
+        & a {
+            width: 100%;
+            display: block;
+            height: 38px;
+            padding-top: .7em;
+            margin-top: .5em;
+            border: solid 1px $primary-blue;
+            border-radius: 100px;
+            color: $primary-blue;
+            font-size: 14px;
+            transition: all .2s;
+        }
+        & a:hover {
+            background-color: $primary-blue;
+            color: #FFF;
+        }
+    }
+    & #forgot-password {
+        font-family: 'Mulish', sans-serif;
+        color: #000;
+        text-decoration: underline;
+        font-weight: 100;
+        padding-top: .6em;
+        display: block;
+    }
+    & #forgot-password:hover {
+        color: $primary-blue;
+    }
+}
+/*SMALL*/
+@media #{$query-small} {
+    
+}
+
+/*MEDIUM*/
+@media #{$query-medium} {
+    #section-right {
+        width: 67%;
+    }
+        
+}
+
+/*LARGE*/
+@media #{$query-large} {
+    
+}
+
+/*X-LARGE*/
+@media #{$query-xl} {
+
+    
+}
+
+/*XX-LARGE*/
+@media #{$query-xxl} {
+
+}

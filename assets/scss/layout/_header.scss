@@ -1,7 +1,17 @@
 /*MOBILE*/
 #logo-ams {
-    width: 80px;
-    padding-top: 30px;
+    width: 60px;
+}
+#header-site {
+    background-color: $primary-blue;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    width: 100%;
+    padding-left: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 
 /*SMALL*/

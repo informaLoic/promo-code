@@ -1,6 +1,9 @@
 //abstracts
 @import './abstracts/variables';
 
+//pages
+@import './pages/register';
+
 //base
 @import './base/reset';
 @import './base/typography';
@@ -19,3 +22,5 @@
 //sections
 @import './sections/section7-hero2';
 @import './sections/section8-benefits-premium';
+@import './sections/section-left';
+@import './sections/section-right';

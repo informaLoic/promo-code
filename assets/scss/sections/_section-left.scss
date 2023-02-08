@@ -1,0 +1,52 @@
+/*MOBILE*/
+
+#section-left {
+    display: none;
+}
+
+/*SMALL*/
+@media #{$query-small} {
+    
+}
+
+/*MEDIUM*/
+@media #{$query-medium} {
+    
+    #section-left {
+        display: block;
+        background-color: $xtra-light;
+        width: 33%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+
+        & #pattern-left {
+            width: 80% ;
+            height: 100vh;
+        }
+        & #girl {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+        }
+       
+    }
+}
+
+/*LARGE*/
+@media #{$query-large} {
+    
+}
+
+/*X-LARGE*/
+@media #{$query-xl} {
+
+    
+}
+
+/*XX-LARGE*/
+@media #{$query-xxl} {
+
+}
